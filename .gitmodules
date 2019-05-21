@@ -1,0 +1,3 @@
+[submodule "docker"]
+	path = docker
+	url = https://git.net-courrier.extra.laposte.fr/GROUPE_ANGULAR_SHARED/docker-front-angular

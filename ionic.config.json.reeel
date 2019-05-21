@@ -1,0 +1,22 @@
+{
+  "name": "ATLAS_MOBILE",
+  "app_id": "",
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/servicesjson/relations-atlas/v1/",
+      "proxyUrl": "http://localhost:9000/servicesjson/relations-atlas/v1/"
+    },
+    {
+      "path": "/servicesjson/depots-atlas/v1/",
+      "proxyUrl": "http://localhost:9000/servicesjson/depots-atlas/v1/"
+    }
+  ],
+  "integrations": {
+    "cordova": {}
+  }
+}
+
+
+
+

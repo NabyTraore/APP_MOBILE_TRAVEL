@@ -1,0 +1,19 @@
+
+
+// Fix misposition of content when opening the app for the first time
+#page-front {
+    height: 52px;
+    @media (min-width: 800px) {
+        height: 60px;
+    }
+
+    #bandeau {
+        background: black;
+        @include box-shadow(0 1px 3px rgba(0,0,0,.3));
+        z-index: 10000;
+    }
+    
+    .page-spacer {
+        margin-top:0 !important;
+    }
+}

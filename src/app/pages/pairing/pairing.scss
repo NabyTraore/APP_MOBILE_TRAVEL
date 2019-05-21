@@ -1,0 +1,91 @@
+
+
+.uppercase{
+  text-transform: uppercase;
+}
+.resume_mouv{
+  background-color: #0f76ff;
+}
+.bottom{
+  bottom: 8px;
+  position: absolute;
+  float: right;
+  right: inherit;
+}
+.item-md{
+  padding: 0 !important;
+}
+.smalless_size{
+  font-size: small;
+}
+.medium_size{
+  font-size: large;
+}
+.xx-large{
+  font-size: xx-large;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+
+//Rotation du button codebare sacnner
+  @keyframes myrotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+
+  @-o-keyframes myrotate {
+    0% {
+      -o-transform: rotate(0deg);
+    }
+    100% {
+      -o-transform: rotate(359deg);
+    }
+  }
+
+  @-moz-keyframes myrotate {
+    0% {
+      -moz-transform: rotate(0deg);
+    }
+    100% {
+      -moz-transform: rotate(359deg);
+    }
+  }
+
+  @-webkit-keyframes myrotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+
+  @-ms-keyframes myrotate {
+    0% {
+      -ms-transform: rotate(0deg);
+    }
+    100% {
+      -ms-transform: rotate(359deg);
+    }
+  }
+
+
+  .rotate:hover {
+    -webkit-animation: myrotate 1.5s infinite linear;
+    -moz-animation: myrotate 1.5s infinite linear;
+    -ms-animation: myrotate 1.5s infinite linear;
+    -o-animation: myrotate 1.5s infinite linear;
+    animation: myrotate 1.5s infinite linear;
+  }
+
+  .rotate {
+    cursor:pointer;
+  }

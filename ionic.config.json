@@ -1,0 +1,18 @@
+{
+  "name": "ATLAS_MOBILE",
+  "app_id": "",
+  "type": "ionic-angular",
+
+  "proxies": [
+    {
+      "path": "/servicesjson/relations-atlas/v1/",
+      "proxyUrl": "http://sass.aa.ws.atlas-quais.net3-courrier.extra.laposte.fr/servicesjson/relations-atlas/v1/"
+    },
+    {
+      "path": "/servicesjson/depots-atlas/v1/",
+      "proxyUrl": "http://sass.aa.ws.atlas-quais.net3-courrier.extra.laposte.fr/servicesjson/depots-atlas/v1/"
+    }
+  ],
+
+  "integrations": {}
+}
